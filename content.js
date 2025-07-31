@@ -1,6 +1,6 @@
 console.log("active");
-un = ""; // write you username here
-pd = ""; //write you pwd here
+un = ""; // write your username here
+pd = ""; //write your pwd here
 
 un_box = document.getElementById("ft_un");
 un_pd = document.getElementById("ft_pd");
