@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "bits-autologin",
+    "version": "1.0",
+    "description": "Auto wifi login",
+    "permissions": ["scripting"],
+    "host_permissions": ["<all_urls>"],
+  
+    "content_scripts": [
+      {
+        "matches": ["https://fw.bits-pilani.ac.in:8090/login*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
